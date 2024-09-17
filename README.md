@@ -6,12 +6,20 @@
 This project is developed using the [Shiny Fluent](https://appsilon.github.io/shiny.fluent/articles/shiny-fluent.html) framework to create an intuitive and interactive dashboard for analyzing sales data. It includes several Shiny applications that demonstrate the functionality of data filtering, data presentation, and further data analysis.
 
 ## Files and Directories
-- `app1.R`: Basic setup for a Shiny application.
-- `app2_Sales_Deals_Datatable.R`: Displays sales deals in a datatable format.
-- `app3_Adding_Filtering.R`: Introduces filtering options to the sales deals datatable.
-- `app4_Adding_More_Filtering.R`: Extends filtering options for more detailed analysis.
-- `app4_Adding_More_Outputs.R`: Adds additional output elements to the dashboard.
-- `Fluent_Shiny_Dashboard.R`: Combines all elements into a comprehensive dashboard.
+- **Fluent UI Dashboard**: The main directory for the dashboard components.
+- **.RData**: Files where R data objects are saved.
+- **.Rhistory**: Files recording the history of R commands.
+- **app_checkbox.R**: Demonstrates the implementation of checkbox elements.
+- **app_combobox.R**: Features combobox UI elements.
+- **app_modules.R**: Contains reusable Shiny modules.
+- **app_UI_nav[1-3].R**: Navigation bars for the UI.
+- **app_UI_Template[1-6].R**: Different UI templates for the dashboard.
+- **app[0-3].R**: Primary application scripts, including:
+- **app0.R**: Base application setup.
+- **app1.R**: Advanced configurations.
+- **app2_Sales_Deals_Datatable.R**: Data tables for sales deals.
+- **app3_Adding_Filtering.R**: Dynamic data filtering functionalities.
+
 
 ## Getting Started
 To run these applications, you will need to have R and Shiny installed. You can install Shiny using the following R command:
